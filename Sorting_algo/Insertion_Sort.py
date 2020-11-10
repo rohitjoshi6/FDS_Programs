@@ -7,7 +7,7 @@ def insertionSort(arr):
      while position>0 and arr[position-1]>currentvalue:
          arr[position]=arr[position-1]
          position = position-1
-         print(arr)
+         #print(arr)
 
      arr[position]=currentvalue
 
